@@ -4,7 +4,7 @@ import InputSection from "./InputSection";
 import ScenarioSection from "./ScenarioSection";
 import ResultSection from "./ResultSection";
 import PROMPTS from "../data/geminiPromptDescriptionInfo";
-import responseGeminiAndStateSetting from "../js/apis/geminiAPI";
+import responseGeminiAndStateSetting from "../js/geminiAPI";
 
 export default function MainComponent(){
     const [loading, setLoading] = useState(true);
